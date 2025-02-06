@@ -1,1 +1,9 @@
-body 
+body {
+    width: 70%;
+    background-color: #f5f6;
+    
+}
+
+#biodata {
+    display: inline;
+}
