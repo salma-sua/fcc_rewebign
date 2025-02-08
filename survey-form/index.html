@@ -7,35 +7,28 @@
     <title>Survey Form</title>
 </head>
 <body>
-    <heading>
-        <h1 id="title">freecodecamp experience survey</h1>
-        <p id="description">User Satisafaction Survey</p>
-    </heading>
-        <form id="survey-form">
-            <fieldset id="biodata">
-                <label for="name-label">Name: <input id="name" type="text" placeholder="Input Your Name Here" required></label>
-                <label for="email-label">Email: <input id="email" type="email" placeholder="Input Your Email Here" pattern="[a-zA-Z0-9]{8}" required></label>
-                <label for="number-label">Age: <input id="number" type="number" placeholder="Input Your Age Here" min="18" max="100" required></label>
-                <button for="submit">Submit</button>
-            </fieldset>
-            <fieldset>
-                <legend>What was your previous experience level?</legend>
+    <h1 id="title">freecodecamp experience survey</h1>
+    <p id="description">user satisfaction survey</p>
+    <form id="survey-form">
+        <fieldset id="biodata">
+            <label for="name-label">Name: <input id="name-label" type="text" placeholder="Input Your Name Here" required></label>
+            <label for="email-label">Email: <input id="email-label" type="email" placeholder="Input Your Email Here" pattern="[a-zA-Z0-9]{8}" required></label>
+            <label for="number-label">Age: <input id="number-label" type="number" placeholder="Input Your Age Here" min="18" max="100" required></label>
+        </fieldset>
+        <fieldset>
+            <legend>What was your previous experience level?</legend>
+            <label for="dropdown">
                 <select id="dropdown">
-                    <option>(select one)</option>
-                    <option>Noob (0-6 months)</option>
-                    <option>Early Stage (7-12 months)</option>
+                <option>(select one)</option>
+                <option>Noob (0-6 months)</option>
+                <option>Early Stage (7-12 months)</option>
                 </select>
-            </fieldset>
-            <fieldset>
-                <legend>Leave a review!</legend>
-                <textarea id="comments" rows="5" cols="50" placeholder="Enter your review here"></textarea>
-            </fieldset>
-            
-        </form>
-    </fieldset>
-    <fieldset>
-        
-
-    </fieldset>
+            </label>
+            <label for="review">Leave a review! 
+                <textarea id="comments" rows="5" cols="40" placeholder="Enter your review here"></textarea>
+            </label>
+        </fieldset>
+        <button id="submit" for="submit">Submit</button>
+    </form>
 </body>
 </html>
