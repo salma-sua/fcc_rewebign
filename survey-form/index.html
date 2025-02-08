@@ -11,35 +11,35 @@
     <p id="description">user satisfaction survey</p>
     <form id="survey-form">
         <fieldset id="biodata">
-            <label for="name-label">Name: <input id="name-label" type="text" placeholder="Input Your Name Here" required></label>
-            <label for="email-label">Email: <input id="email-label" type="email" placeholder="Input Your Email Here" pattern="[a-zA-Z0-9]{8}" required></label>
-            <label for="number-label">Age: <input id="number-label" type="number" placeholder="Input Your Age Here" min="18" max="100" required></label>
+            <label id="name-label">Name: <input id="name" type="text" placeholder="Input Your Name Here" required></label>
+            <label id="email-label">Email: <input id="email" type="email" placeholder="Input Your Email Here" pattern="[a-zA-Z0-9]{8}" required></label>
+            <label id="number-label">Age: <input id="number" type="number" placeholder="Input Your Age Here" min="18" max="100" required></label>
         </fieldset>
         <fieldset>
             <legend>How much did we impact your learning journey?</legend>
             <label for="radio">
-                <input type="radio" name="radio" value="low">I didn't learn any useful thing!
+                <input type="radio" name="radio" value="low" class="inline">I didn't learn any useful thing!
             </label>
             <label for="radio">
-                <input type="radio" name="radio" value="average">You were alright, I guess.
+                <input type="radio" name="radio" value="average" class="inline">You were alright, I guess.
             </label>
             <label for="radio">
-                <input type="radio" name="radio" value="high">I will include you in my Forbe's interview appreciation!
+                <input type="radio" name="radio" value="high" class="inline">I will include you in my Forbe's interview appreciation!
             </label>
         </fieldset>
         <fieldset>
             <legend>What was your favorite part of the course?</legend>
             <label for="checkbox">
-                <input type="checkbox" name="checkbox" value="finished-product">The finished product
+                <input type="checkbox" name="checkbox" value="finished-product" class="inline">The finished product
             </label>
             <label for="checkbox">
-                <input type="checkbox" name="checkbox" value="ending">The  Course ending
+                <input type="checkbox" name="checkbox" value="ending" class="inline">The  Course ending
             </label>
             <label for="checkbox">
-                <input type="checkbox" name="checkbox" value="html">HTML
+                <input type="checkbox" name="checkbox" value="html" class="inline">HTML
             </label>
             <label for="checkbox">
-                <input type="checkbox" name="checkbox" value="css">CSS
+                <input type="checkbox" name="checkbox" value="css" class="inline">CSS
             </label>
         </fieldset>
         <fieldset>
